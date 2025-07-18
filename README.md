@@ -1,1 +1,3 @@
-# gcp-devops-project
+# GCP DevOps Project
+
+### This is a practice devops project from KodeKloud course.
