@@ -2,4 +2,4 @@
 
 ### This is a practice devops project from KodeKloud course.
 
-### Learner: Minh
+### Learner: Minh-Task 02
