@@ -1,5 +1,4 @@
 # GCP DevOps Project
 
-### This is a practice devops project from KodeKloud course.
-
-### Learner: Minh-Task 02
+### This application is written in Python.
+### It shall be deployed on GKE
