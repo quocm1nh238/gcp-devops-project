@@ -16,3 +16,6 @@ steps:
   - --location=asia-southeast1-c
   - --cluster=gke-gcp-devops
   - --namespace=gcp-devops-gke
+
+options:
+  logging: CLOUD_LOGGING_ONLY
