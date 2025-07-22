@@ -15,7 +15,7 @@ steps:
   - --image=gcr.io/$PROJECT_ID/gcpdevops
   - --location=asia-southeast1-c
   - --cluster=gcp-devops-project
-  - --namespace=gcp-devops-gke
+  - --namespace=gcp-devops-prod
 
 options:
   logging: CLOUD_LOGGING_ONLY
