@@ -5,7 +5,7 @@ metadata:
   name: gcp-devops-gke
   namespace: gcp-devops-prod
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: gcp
