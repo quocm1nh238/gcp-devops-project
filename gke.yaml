@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: gcp-devops-gke
-  namespace: gcp-devops-prod
+  namespace: gcp-devops-dev
 spec:
   replicas: 3
   selector:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: nginx-container
-        image: gcr.io/ultimate-opus-466117-j5/gcpdevops:latest
+        image: gcr.io/ultimate-opus-466117-j5/gcpdevops-dev
         ports:
         - containerPort: 5000
         env:
